@@ -1,5 +1,7 @@
 c = []
 import random
+# random.sample --> Prints list of random items of given length
+# Using randrange() to generate a number from 0-100
 number = random.sample(range(1, random.randrange(150)), random.randint(1,10))
 number1 = random.sample(range(1, random.randrange(500)), random.randint(1,10))
 a = [x for x in number]
